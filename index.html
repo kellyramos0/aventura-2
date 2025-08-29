@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Tesouro do Repositório Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>A Entrada da Masmorra Digital</h1>
+        <p>Você se encontra diante de uma porta antiga, forjada em código. Para prosseguir, você precisa decifrar a primeira pista.</p>
+        <button onclick="window.location.href='sala1.html'">Iniciar a Jornada</button>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>A Sala dos Enigmas</h2>
+        <p>Um mural na parede diz: "Eu sou a linguagem que estrutura o esqueleto da web. Quem sou eu?"</p>
+        <input type="text" id="resposta1" placeholder="Sua resposta...">
+        <button onclick="verificarResposta('resposta1', 'html', 'sala2.html')">Responder</button>
+        <p id="feedback"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>A Bifurcação do Caminho</h2>
+        <p>Você vê dois caminhos. Um brilha com cores vibrantes e o outro é um caminho sem cores. Qual você escolhe?</p>
+        <button onclick="window.location.href='vitoria.html'">Caminho Vibrante</button>
+        <button onclick="window.location.href='derrota.html'">Caminho Sem Cores</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitória</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Parabéns! Você encontrou o tesouro!</h1>
+        <p>Você escolheu o caminho certo e a porta se abriu para revelar a joia mais valiosa de todas: o conhecimento!</p>
+        <p>O tesouro está no arquivo `tesouro-secreto.txt` no repositório.</p>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derrota</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fim da linha, aventureiro.</h1>
+        <p>Você caiu em uma armadilha. A jornada termina aqui. Tente novamente!</p>
+        <button onclick="window.location.href='index.html'">Recomeçar</button>
+    </div>
+</body>
+</html>
